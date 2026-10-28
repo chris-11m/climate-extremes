@@ -1,0 +1,30 @@
+# ERA5 / generated data
+data/*.nc
+data/raw/
+data/processed/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE / OS
+.DS_Store
+Thumbs.db
+
+# Secrets / environment files
+.env
+*.key
+
+
+# Local development/debug scripts
+scripts/a_test_features.py
